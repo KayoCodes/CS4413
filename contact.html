@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="mystyle.css" type="text/css" rel="stylesheet">
+
+</head>
+<body id="b3">
+    <h1 id="contactHeader">
+        Contact Me
+    </h1>
+    <form
+action="./save_contact.php"
+method="get">
+<table cellspacing="10" id="contactTable">
+    <tr id="r1">
+        <th colspan="4" id="feedbackCaption">Send Feedback</th>
+    </tr>
+    <tr id="r2"> 
+        <td id="nameLabel">Enter Your Name: </td>
+        <td id="usr"><input type="text" name="username" id="nameInput"
+            size="15" maxlength="30" /></td>
+    </tr>
+
+    <tr id="r3"> 
+        <td id="thoughtsLabel">What did you think of My Website? </td>
+        <td id="tho" ><textarea name="comments" cols="25" rows="3" id="thoughtsInput" >
+        Enter Thoughts...
+            </textarea></td>
+    </tr>
+    <tr id="r4"> 
+        <td id="returnLabel">Will you return?</td>
+        <td id="ans"><select name="answers">
+            <option value="yes"
+            selected="selected" id="returnInputs">Yes</option>
+            <option value="No">No</option>
+            <option value="IDK">I Don't Know Yet...</option>
+            </select></td>
+    </tr>
+    <tr id="r5"> 
+        <td id="emailLabel">Enter Your Email:  </td>
+        <td id="ema"><input type="text" name="email"
+            size="15" maxlength="30" id="emailInput"/></td>
+          <td id="sub"><input type="submit"
+            value="Subscribe" id="subButton" /></td>  
+    </tr>
+
+
+</table>
+
+
+
+
+
+
+</form>
+    
+</body>
+</html>

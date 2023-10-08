@@ -1,0 +1,139 @@
+#b1,#b2,#b3{
+    background-color: black;
+}
+#header1{
+    color: white;
+}
+#header2{
+    color: #fe4300;
+}
+
+.pg{
+    background-color: black;
+    color: white;
+}
+#me{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    opacity: 95%;
+   display: block;
+   margin: 0px auto;
+
+}
+#favsites{
+    margin-top: 50px;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    color: #fe4300;
+}
+
+
+#ul1,#ul2,#ul3{
+    
+   border-style: solid;
+   border-radius: 5px;
+   border-color: #fe4300;
+}
+#cl1{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 6px;
+    text-align: center;
+}
+#cl2{
+   font-size: 20px;
+    padding: 6px;
+    text-align: center;
+}
+#cl3{
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#cl1 a:hover{
+    color: #fe4300;
+   
+    }
+#cl2 a:hover{
+        color: #fe4300;
+       
+        }
+ #cl3 a:hover{
+            color: #fe4300;
+           
+            }
+#cont a{
+    
+    padding: 5px 5px 8px ;
+    border-style: solid;
+    border-color:#fe4300 ;
+    border-radius: 20px ;
+    background-color:#fe4300;
+
+}
+#l1,#l2,#l3,#l4,#l5{
+    padding: 6px;
+list-style: none;
+color: white;
+}
+#bl1,#bl2,#bl3,#bl4,#bl5{
+    padding: 6px;
+list-style: none;
+color: white;
+}
+a:link{
+color: white;
+}
+a:visited{
+color: red;
+border-color: darkcyan;
+}
+
+#cont a:hover{
+color: #fe4300;
+border-color: white;
+background-color: white;
+}
+
+#listcaption1,#listCaption2{
+padding: 6px;
+list-style: none;
+color: white;
+
+}
+#contactHeader{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#contactTable{
+    
+    border-style: double;
+    border-color: #fe4300;
+    padding: 20px;
+     margin: 0px auto;
+}
+hr{
+    
+color: cyan;
+}
+#feedbackCaption{
+    color: #fe4300;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#nameLabel, #thoughtsLabel, #returnLabel,#emailLabel{
+    color: white;
+
+}
+#myHobbies,#headerInterest,#scheduleHeader{
+    color: #fe4300;
+}
+#knowAboutMe,#contactMe{
+    color: white;
+}

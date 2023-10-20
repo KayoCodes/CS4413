@@ -14,6 +14,7 @@ function runAjax(fname, lname){
             document.getElementById("responseString").innerHTML = this.responseText
         }
     }
-    xhr.open('GET','ajax.php?fname=${fname}&lname',true)
+    var arguments = "fname="+fname+"&lname="+lname;
+    xhr.open('GET','ajax.php?'+arguments,true)
     xhr.send()
 }

@@ -10,10 +10,10 @@ function runAjax(fname, lname){
     var xhr = new XMLHttpRequest;
     xhr.onload = function(){
         if (xhr.status === 200){
-            this.response = fname+lname;
-            document.getElementById("responseString").innerHTML = this.response
+            
+            document.getElementById("responseString").innerHTML = this.responseText
         }
     }
-    xhr.open('GET','ajax.php',true)
+    xhr.open('GET','ajax.php?fname=fname.value&lname=lname.value',true)
     xhr.send()
 }

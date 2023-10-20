@@ -14,6 +14,6 @@ function runAjax(fname, lname){
             document.getElementById("responseString").innerHTML = this.responseText
         }
     }
-    xhr.open('GET','ajax.php?fname="fname"&lname=lname.value',true)
+    xhr.open('GET','ajax.php?fname&lname',true)
     xhr.send()
 }

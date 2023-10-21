@@ -20,7 +20,7 @@ echo "database connection success<br>";
 echo "<strong>now showing results from a database query...</strong>";
 
 
-$query="SELECT * FROM lab9 WHERE url_tld='academy' AND url_status='added';";
+/*$query="SELECT * FROM lab9 WHERE url_tld='academy' AND url_status='added';";
 
 $result = $db_conn->query($query);
 
@@ -33,6 +33,6 @@ if($result->num_rows  > 0) {
 } else {
     echo '<br>no records returned';
 } 
-
+*/
 $db_conn->close();
 

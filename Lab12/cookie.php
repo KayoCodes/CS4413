@@ -2,7 +2,7 @@
 <?php
 $cookie_name ="cs4413";
 $cookie_value = "This is My Cs4413 Cookie!";
-setcookie($cookie_name, $cookie_value, time() + 120 ,"/");
+setcookie($cookie_name, $cookie_value, time() + 240);
 ?>
 <html lang="en">
 <head>
@@ -12,11 +12,8 @@ setcookie($cookie_name, $cookie_value, time() + 120 ,"/");
 </head>
 <body>
     <p>Lab 12</p>
-    
-</body>
-</html>
 
-<?php
+    <?php
 
 if (isset($_COOKIE[$cookie_name])){
     echo "Cookie named ".$cookie_name ." is set" ;
@@ -25,3 +22,7 @@ echo "Cookie is not set";
 }
 
 ?>
+    
+</body>
+</html>
+

@@ -1,7 +1,7 @@
 <?php
-$cookie_name = "user";
-$cookie_value = "John Doe";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+$cookie_name = "cs4413";
+$cookie_value = "WebTech Cookie";
+setcookie($cookie_name, $cookie_value, time() + (86400 ), "/"); // 86400 = 1 day
 ?>
 <html>
 <body>
